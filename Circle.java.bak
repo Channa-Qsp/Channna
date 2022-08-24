@@ -1,0 +1,20 @@
+class Sample
+{
+   void area()
+   {
+      int r=5;
+      final double pi=3.142;
+      double c=pi*r*r;
+      sop(c);
+    }
+}
+class Circle
+   {
+	public static void main(String[] args)
+	   {
+     Sample s1=new Sample();
+      s1.area();
+      s1.area();
+	   }
+   }
+

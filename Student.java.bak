@@ -1,0 +1,32 @@
+class Sample
+{
+  static void find(int rollno)
+  {
+  System.out.println("find by rollno"+rollno);
+  }
+  static void find(String name)
+	{
+	    System.out.println("find by name"+name);
+	}
+	static void find(int rollno,String name)
+	{
+	    System.out.println("find by rollno and name"+rollno+name);
+	}
+	static void shop(String name,int rollno)
+	{
+	    System.out.println("find by name and rollno"+name+rollno);
+	}
+}
+class Student
+{
+	public static void main(String[] args)
+	{
+		Sample.find(15);
+		Sample.find("rakesh");
+		Sample.find(15,"rakesh");
+		Sample.find("rakesh",15);
+	}
+}
+
+
+
